@@ -9,6 +9,14 @@ import proofImg from "../assets/images/proof.jpg";
 
 const projectsData: IProject[] = [
   {
+    technologies: ["Nextjs", "React", "Tailwindcss"],
+    title: "projects.twitterUi.title",
+    imageUrl: twUi,
+    url: "https://twitter-ui-clone-gules.vercel.app/",
+    paragraphs: ["projects.twitterUi.paragraphs.1"],
+    repoUrl: "https://github.com/JoaquinGomez1/twitter-ui-clone",
+  },
+  {
     technologies: [
       "Nextjs",
       "React",
@@ -29,33 +37,26 @@ const projectsData: IProject[] = [
     ],
     repoUrl: "https://github.com/JoaquinGomez1/Nextjs-Bugtracker",
   },
-  {
-    technologies: ["Nextjs", "React", "Tailwindcss"],
-    title: "projects.twitterUi.title",
-    imageUrl: twUi,
-    url: "https://twitter-ui-clone-gules.vercel.app/",
-    paragraphs: ["projects.twitterUi.paragraphs.1"],
-    repoUrl: "https://github.com/JoaquinGomez1/twitter-ui-clone",
-  },
-  {
-    technologies: [
-      "React",
-      "Nodejs",
-      "Express",
-      "Material UI",
-      "Context API",
-      "MongoDB & Mongo Cloud Atlas",
-      "Heroku",
-    ],
-    title: "projects.ecommerce.title",
-    imageUrl: ecomImg,
-    url: "https://nextjs-bugtracker.vercel.app",
-    paragraphs: [
-      "projects.ecommerce.paragraphs.1",
-      "projects.ecommerce.paragraphs.2",
-    ],
-    repoUrl: "https://github.com/JoaquinGomez1/Nextjs-Bugtracker",
-  },
+
+  // {
+  //   technologies: [
+  //     "React",
+  //     "Nodejs",
+  //     "Express",
+  //     "Material UI",
+  //     "Context API",
+  //     "MongoDB & Mongo Cloud Atlas",
+  //     "Heroku",
+  //   ],
+  //   title: "projects.ecommerce.title",
+  //   imageUrl: ecomImg,
+  //   url: "https://nextjs-bugtracker.vercel.app",
+  //   paragraphs: [
+  //     "projects.ecommerce.paragraphs.1",
+  //     "projects.ecommerce.paragraphs.2",
+  //   ],
+  //   repoUrl: "https://github.com/JoaquinGomez1/Nextjs-Bugtracker",
+  // },
   // {
   //   technologies: ["React", "React Router", "Fetch API", "Css", "Netlify"],
   //   title: "projects.pokepedia.title",

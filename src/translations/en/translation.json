@@ -1,0 +1,120 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "services": "Skills",
+    "contact": "Contact"
+  },
+  "landing": {
+    "title": "Hi!",
+    "subtitle": "I'm Joaquín Gómez",
+    "description": "Fullstack Developer",
+    "button": "Check my mork"
+  },
+  "about": {
+    "subheader": "Introduction",
+    "header": "About me",
+    "firstParagraph": "I'm an experienced web developer and I've worked with both client and server side applications. I specialize in creating robust apps. Currently I have experience working with several different technologies like Typescript, React, Nodejs, Nestjs and many more. I can also work on mobile apps using React Native or flutter as well",
+    "secondParagraph": "Since I was little I loved the idea of making apps that could potentially help, enternain and be really useful for everybody. Today I can proudly say that, thanks to my effort and the developer community, I can be living my dream",
+    "thirdParagraph": "If you're looking for a pasionate, motivated, critical thinking, self-taught, self-driven and eager to work in something that I'm passionate about, feel free to ",
+    "url": "get in contact with me",
+    "technologies": {
+      "title": "Technologies  ",
+      "js": "JavaScript / Typescript",
+      "react": "React",
+      "node": "Nodejs using Express y Nestjs",
+      "db": "MongoDB / SQL",
+      "misc": "Design patterns / Agile / Software Architecture",
+      "git": "Git"
+    }
+  },
+  "projects": {
+    "header": "Showcase",
+    "title": "Look at some of my projects",
+    "viewSourceCode": "View source code",
+    "viewDemo": "View demo",
+    "projects": {
+      "bugtracker": {
+        "title": "Bugtracker",
+        "paragraphs": {
+          "1": "Bug management app",
+          "2": "This app allows our users to create and share projects to track bugs and issues. It also allows users to create and share tasks to track the progress of the project. The app is built with Nextjs, React, Nodejs, Vercel Functions and Postgresql",
+          "3": "Besides, it also allows users to create and share comments to track the progress of the task and has it's own role system to allow users to fully manage their own projects"
+        },
+        "sideNote": ""
+      },
+      "twitterUi": {
+        "title": "Twitter UI",
+        "paragraphs": {
+          "1": "Proyecto de maquetado utilizando React y TailwindCss. El objetivo de este proyecto es demostrar mis habilidades de maquetado y mi capacidad de trabajar con un diseño pre-definido. Esta aplicación cuenta únicamente con lógica del lado del cliente, es decir toda la persistencia que maneja este proyecto es de manera local"
+        }
+      },
+      "ecommerce": {
+        "title": "Electroniks E-commerce",
+        "paragraphs": {
+          "1": "Aplicacion de comercio electrónico en la cual implemento funcionalidad de carro de compras, enrutamiento dinámico, autorización y autenticación de usuarios, productos favoritos y funcionalidad de CRUD para usuarios administradores.",
+          "2": "Lamentablemente esta aplicación fue desarrollada únicamente con propósitos educativos y no cuenta con ningún tipo de logística real detrás de su funcionalidad, por lo cual no implementé un sistema de cobro y procesamiento de pagos (Como podría haber hecho con la API de Stripe o MercadoPago) para evitar confusiones en el caso de que alguien intente hacer una compra utilizando una tarjeta de crédito válida. Tecnologías utilizadas:"
+        },
+        "sideNote": "Todas las animaciones están hechas con css unicamente"
+      },
+      "pokepedia": {
+        "title": "Pokepedia",
+        "paragraphs": {
+          "1": "Seguramente viste este tipo de aplicaciones de pokemon o similares un montón de veces, y hasta puede que pienses que no demuestra mucha profesionalidad. Pero me parece súper importante incluirlo en mi portafolio ya que demuestra de forma simple, e interactiva que puedo trabajar con operaciones asíncronas y obtener datos de un servidor sin ningún problema",
+          "2": "Este fue el primer proyecto que realicé utilizando React y a pesar de que por ahí es un proyecto considerado como 'poco serio', le tengo mucho aprecio ya que me permitió aprender muchos de los conceptos que hoy manejo a diario con este fantástico framework"
+        },
+        "thirdParagraph": "La principal funcionalidad de esta aplicación es brindar a quienes lo necesiten información sobre los juegos publicados de la saga Pokemon."
+      },
+      "proof": {
+        "title": "Proof - Maquetado HTML CSS",
+        "paragraphs": {
+          "1": "Este es uno de las primeras páginas en las que trabajé, es solamente un landing page hecho sin ningún framework",
+          "2": "Es una recreación del landing page de una compañia llamada proof, cuyo sitio original se puede encontrar al hacer click al logo de la empresa"
+        }
+      }
+    }
+  },
+  "services": {
+    "title": "Mis Servicios",
+    "service1": {
+      "title": "Amplia experiencia en React",
+      "description": "Basto conocimiento en cómo funciona el framework mas utilizado actualmente. Entiendo de forma amplia como funciona el renderizado en tiempo real, como funciona el ciclo de vida de un componente y como integrar una aplicación a diversos entornos que puedan tener en tu empresa"
+    },
+    "service2": {
+      "title": "Responsive web design",
+      "description": "Creación de layouts dinámicas que adaptan de manera elegante el diseño de cualquier sitio web"
+    },
+    "service3": {
+      "title": "English proficiency",
+      "description": "I believe being able to communicate in fluent English is one of the most important skills to have in order to be an awesome Software Developer"
+    },
+    "service4": {
+      "title": "Frontend y Backend",
+      "description": "Cuento con experiencia creando aplicaciones que interactúan tanto con el servidor y su base de datos como con el usuario y sus necesidades"
+    },
+    "service5": {
+      "title": "Resolución de problemas",
+      "description": "Pensamiento lógico y habilidades de analisis para resolver los diferentes desafíos que se presentan día a día"
+    },
+    "service6": {
+      "title": "Team Player",
+      "description": "Uno de los motivos por los que elegí esta carrera es por la posibilidad de trabajar con muchas personas de distintos ámbitos, por lo que cuento con excelentes capacidades de comunicación y trabajo en equipo. Me encanta tener la oportunidad de trabajar en equipo y aprender de los demás"
+    }
+  },
+  "contact": {
+    "header": "Información",
+    "title": "Cómo Contactarme",
+    "description": "Dejame un mensaje",
+    "inputfield1": {
+      "label": "Asunto",
+      "placeholder": "Asunto"
+    },
+    "inputfield2": {
+      "label": "Tu mensaje",
+      "placeholder": "Contratado"
+    },
+    "button": "Enviar",
+    "location": "Ubicación"
+  }
+}

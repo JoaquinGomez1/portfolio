@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <main>
       <Navbar />
-      <Sidebar />
+      {/* <Sidebar /> */}
       <Landing />
       <About />
       <Projects />

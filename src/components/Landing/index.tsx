@@ -2,7 +2,11 @@ import { useTranslation } from "react-i18next";
 import landingManImage from "../../assets/images/landing-ilus (3)-edit.png";
 
 export default function index() {
-  const { t } = useTranslation("landing");
+  const { t, i18n } = useTranslation("landing");
+
+  const isSpanish = i18n.language === "es";
+  const switchLanguage = () =>
+    isSpanish ? i18n.changeLanguage("en") : i18n.changeLanguage("es");
   return (
     <section id="home" className="landing">
       <div
@@ -17,9 +21,23 @@ export default function index() {
           <h3>{t("title")}</h3>
           <h1>{t("subtitle")}</h1>
           <h4>{t("description")}</h4>
-          <button className="callToAction viewProyectsBtn">
+          <button
+            onClick={() => {
+              document
+                .querySelector("#projects")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            className="callToAction viewProyectsBtn"
+          >
             {t("button")}
           </button>
+
+          <div>
+            <span className="secondary-button" onClick={switchLanguage}>
+              {isSpanish ? "View in English" : "Ver en Español"}
+              <i className="fas fa-globe ml-4" />
+            </span>
+          </div>
         </div>
         <div className="landing-illustration">
           <img src={landingManImage} alt="" />

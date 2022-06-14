@@ -3,9 +3,9 @@ import { IProject } from "../components/Projects";
 // Images
 import bgtrackerImage from "../assets/images/NextjsBugTracker.png";
 import twUi from "../assets/images/TwitterUI.png";
-import ecomImg from "../assets/images/electroniks.png";
-import pkpediaImg from "../assets/images/pokepedia.png";
-import proofImg from "../assets/images/proof.jpg";
+// import ecomImg from "../assets/images/electroniks.png";
+// import pkpediaImg from "../assets/images/pokepedia.png";
+// import proofImg from "../assets/images/proof.jpg";
 
 const projectsData: IProject[] = [
   {

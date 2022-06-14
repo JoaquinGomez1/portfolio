@@ -47,7 +47,7 @@
       "twitterUi": {
         "title": "Twitter UI",
         "paragraphs": {
-          "1": "Proyecto de maquetado utilizando React y TailwindCss. El objetivo de este proyecto es demostrar mis habilidades de maquetado y mi capacidad de trabajar con un diseño pre-definido. Esta aplicación cuenta únicamente con lógica del lado del cliente, es decir toda la persistencia que maneja este proyecto es de manera local"
+          "1": "Pixel perfect twitter UI clone, this project was built using React and TailwindCss. State is handled using React Context and hooks to keep the UI in sync with the data while maintaining a clean codebase"
         }
       },
       "ecommerce": {
@@ -76,45 +76,45 @@
     }
   },
   "services": {
-    "title": "Mis Servicios",
+    "title": "Skills",
     "service1": {
-      "title": "Amplia experiencia en React",
-      "description": "Basto conocimiento en cómo funciona el framework mas utilizado actualmente. Entiendo de forma amplia como funciona el renderizado en tiempo real, como funciona el ciclo de vida de un componente y como integrar una aplicación a diversos entornos que puedan tener en tu empresa"
+      "title": "Frontend Development using React",
+      "description": "I have vast React knowledge that allows me to create beautiful, performant and scalable solutions for any project. I understand how React works under the hood which allows me to quickly build a solution for any problem."
     },
     "service2": {
       "title": "Responsive web design",
-      "description": "Creación de layouts dinámicas que adaptan de manera elegante el diseño de cualquier sitio web"
+      "description": "I can create responsive, mobile-friendly websites that work on any device while also taking accesibilty features into account"
     },
     "service3": {
-      "title": "English proficiency",
-      "description": "I believe being able to communicate in fluent English is one of the most important skills to have in order to be an awesome Software Developer"
+      "title": "Native Spanish speaker",
+      "description": "I can speak Spanish and English fluently, which helps me communicate efficiently with more people"
     },
     "service4": {
-      "title": "Frontend y Backend",
-      "description": "Cuento con experiencia creando aplicaciones que interactúan tanto con el servidor y su base de datos como con el usuario y sus necesidades"
+      "title": "Backend Development",
+      "description": "Experience working on server-side applications, databases and system design. My main stack is Nestjs / Express using MongoDB or SQL Server"
     },
     "service5": {
-      "title": "Resolución de problemas",
-      "description": "Pensamiento lógico y habilidades de analisis para resolver los diferentes desafíos que se presentan día a día"
+      "title": "Problem solving",
+      "description": "I have criticial and analitical thinking which are crucial to deliver projects quicker"
     },
     "service6": {
       "title": "Team Player",
-      "description": "Uno de los motivos por los que elegí esta carrera es por la posibilidad de trabajar con muchas personas de distintos ámbitos, por lo que cuento con excelentes capacidades de comunicación y trabajo en equipo. Me encanta tener la oportunidad de trabajar en equipo y aprender de los demás"
+      "description": "I have a strong sense of collaboration and I am always ready to help others. I love cooperating as well as being able to exchange ideas and knowledge with my colleagues"
     }
   },
   "contact": {
-    "header": "Información",
-    "title": "Cómo Contactarme",
-    "description": "Dejame un mensaje",
+    "header": "Info",
+    "title": "How to contact me",
+    "description": "Leave me a message",
     "inputfield1": {
-      "label": "Asunto",
-      "placeholder": "Asunto"
+      "label": "Subject",
+      "placeholder": "Subject"
     },
     "inputfield2": {
-      "label": "Tu mensaje",
-      "placeholder": "Contratado"
+      "label": "Your message",
+      "placeholder": "Hi there, I would like to talk to you about..."
     },
-    "button": "Enviar",
-    "location": "Ubicación"
+    "button": "Send",
+    "location": "Location"
   }
 }

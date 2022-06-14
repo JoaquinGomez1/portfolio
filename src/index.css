@@ -26,6 +26,12 @@ nav {
   font-size: 1.5em;
 }
 
+nav {
+  position: sticky !important;
+  background-color: var(--bgMain);
+  top: 0;
+}
+
 .container {
   width: 90%;
 }
@@ -648,4 +654,16 @@ input[type="checkbox"],
 
 .mr-4 {
   margin-right: 0.5rem;
+}
+
+.secondary-button {
+  cursor: pointer;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--bgDarker);
+}
+
+.secondary-button:hover {
+  background-color: var(--bgLight);
 }

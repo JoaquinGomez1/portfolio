@@ -3,11 +3,7 @@ import { ScrollableLink } from "..";
 import { navData } from "../../constants/navdata";
 
 export default function Navbar() {
-  const { t, i18n } = useTranslation("navbar");
-
-  const isSpanish = i18n.language === "es";
-  const switchLanguage = () =>
-    isSpanish ? i18n.changeLanguage("en") : i18n.changeLanguage("es");
+  const { t } = useTranslation("navbar");
 
   return (
     <nav id="nav">
@@ -27,10 +23,6 @@ export default function Navbar() {
                 </li>
               ))}
             </ul>
-            <div style={{ cursor: "pointer" }} onClick={switchLanguage}>
-              {isSpanish ? "Change language" : "Cambiar idioma"}
-              <i className="fas fa-globe ml-4" />
-            </div>
           </div>
         </div>
       </div>

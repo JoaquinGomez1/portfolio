@@ -6,7 +6,7 @@ export interface NavData {
 }
 
 export const navData: NavData[] = [
-  { text: "home", path: "#nav" },
+  { text: "home", path: "#home" },
   { text: "about", path: "#about" },
   { text: "projects", path: "#projects" },
   { text: "services", path: "#services" },
